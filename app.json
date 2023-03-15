@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Dot Fortune",
+    "slug": "Dot",
+    "version": "1.0.0",
+    "scheme": "dotfortune",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.dot.Fortune"
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.dot.fortune",
+      "versionCode": 1
+    }
+  },
+  "androidNavigationBar": {
+    "backgroundColor": "#ffffff",
+    "barStyle": "dark-content"
+  },
+  "plugins": [
+    "expo-navigation-bar",
+    "expo-system-ui"
+  ],
+  "runtimeVersion": {
+    "policy": "sdkVersion"
+  },
+  "extra": {
+    "expo-navigation-bar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark"
+    }
+  }
+}
